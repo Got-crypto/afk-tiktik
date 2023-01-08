@@ -17,10 +17,6 @@ export default function App({ Component, pageProps }: AppProps) {
   
   if(isSSR) return null
 
-
-  
-  console.log('process.env.REACT_PUBLIC_GOOGLE_API_KEY', process.env.REACT_PUBLIC_GOOGLE_API_KEY)
-
   return (
     <GoogleOAuthProvider clientId='153458516590-om0a24fmqs1ntlvsmof180ad5tk5invq.apps.googleusercontent.com'>
       <div>

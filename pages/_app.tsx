@@ -7,7 +7,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 
-export default function App({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   
   const [isSSR, setIsSSR] = useState(true)
 
@@ -33,3 +33,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </GoogleOAuthProvider>
   )
 }
+
+export default App

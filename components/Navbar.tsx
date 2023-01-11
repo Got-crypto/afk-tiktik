@@ -50,7 +50,7 @@ const Navbar = () => {
                         alt='profile photo'
                     />
                 </>
-            </Link>
+               </Link>
               )}
               <button onClick={() => {
                 googleLogout()
